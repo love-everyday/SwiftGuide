@@ -1,7 +1,7 @@
 # 创建CocoapodsPrivatePodspec
 
 ## 创建Framework项目
-![创建Framework](Resource/PrivatePodspec/创建Framework截图.png)
+![创建Framework](Resource/PrivatePodspec/CreateFramework.png)
 
 ## 调整项目文件结构
 
