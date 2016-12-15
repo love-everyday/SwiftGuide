@@ -14,4 +14,5 @@
 7. 打开`<Your Project Name>.podspec`文件，然后修改其中的内容![打开podspec](Resource/PrivatePodspec/打开podspec.png)
 8. 在项目根目录中打开`Terminal`，通过命令`pod lib lint`检验`podspec`文件
 
-
+## 参考文章
+[使用Cocoapods创建私有podspec](http://www.cocoachina.com/ios/20150228/11206.html)
