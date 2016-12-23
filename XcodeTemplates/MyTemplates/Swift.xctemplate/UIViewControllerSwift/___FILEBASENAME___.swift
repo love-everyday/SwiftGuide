@@ -14,19 +14,23 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
-    //MARK:Public Property
+    //MARK: - Public Property
     
     
     
-    //MARK:Private Property
+    //MARK: - Private Property
     
     
     
-    //MARK:Public Methods
+    //MARK: - Public Methods
     
     
     
-    //MARK:Override Methods
+    //MARK: - Override Methods
+    
+    deinit {
+        print("deinit \(NSStringFromClass(self.classForCoder))")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,12 +47,12 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         
     }
 
-    //MARK:Private Methods
+    //MARK: - Private Methods
     
     
-    //MARK:User Events
+    //MARK: - User Events
     
 }
 
-//MARK:Extension Delegate or Protocol
+//MARK: - Extension Delegate or Protocol
 
